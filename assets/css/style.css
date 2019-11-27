@@ -81,8 +81,8 @@ img{
     height: 100px;
     padding: 0 20px;
     display: block;
-    position:absolute;
-    left:26.5%;
+    position:relative;
+    left:31.2%;
 }
 
 nav{ 
@@ -121,7 +121,7 @@ nav li{
     margin-left: 70px;
     padding-top: 40px;
     font-size: 14pt;
-    position: relative;;
+    position: relative;
     right:135%
 }
 
