@@ -11,8 +11,9 @@ height: 100%;
     border: solid 4px #dddddd;
 }
 
-container{
-    width:80%;
+.container{
+    width:960px;
+    height: 100px;
     margin: 0 auto;
 }
 
@@ -22,12 +23,11 @@ header{
     margin-bottom: 20px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     border: solid 2px #cccccc;
-    position: relative;
+
 } 
 
-header::after{
-    content: '';
-    display: table;
+.container::after{
+    content: ''
     clear: both;
 }
 
@@ -61,6 +61,7 @@ p{
     text-align: left;
     padding: 10px 10px 10px 20px;
     line-height: 1.4em;
+
 }
 
 
@@ -79,15 +80,9 @@ img{
     float: left;
     color: #ffffff;
     height: 100px;
-    padding: 0 20px;
-    display: block;
-    position:relative;
-    left:31.2%;
+    padding: 0 20px;   
 }
 
-nav{ 
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
 
 
 footer{
@@ -106,6 +101,7 @@ footer{
 }
 
 nav{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     float: right;
 }
 
@@ -121,8 +117,6 @@ nav li{
     margin-left: 70px;
     padding-top: 40px;
     font-size: 14pt;
-    position: relative;
-    right:135%
 }
 
 nav a {
@@ -145,5 +139,4 @@ hr{
 
 
 
-
-
+  
