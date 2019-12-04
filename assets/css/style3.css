@@ -1,51 +1,35 @@
-#Pic1{
-    width: 80%;
-    height: 100%;
-    margin-top: 20px; 
-    margin-left: 28px;
-    margin-right: 28px;
-    box-shadow: 0px 0px 10px #777777;
+/*need to create proper margins to align pictures evenly*/
 
+#pic1 {
+  margin: 20px 40px;
+  padding: 10px;
 }
 
-#Pic2{
-    width: 80%;
-    height: 100%;
-    margin-top: 160px;
-    margin-right: 28px;
-    margin-left: 28px;
-    box-shadow: 0px 0px 10px #777777;
+#pic2 {
+  margin: 20px 40px;
+  padding: 10px;
 }
 
-#Pic3{
-    width: 80%;
-    height: 100%;
-    margin: 40px 28px 20px 28px;
-    box-shadow: 0px 0px 10px #777777;
-    
-    
+#pic3 {
+  margin: 20px 40px;
+  padding: 10px;
 }
 
-#Pic4{
-    width: 80%;
-    height: 100%;
-    margin: 20px 28px 20px 28px;
-    box-shadow: 0px 0px 10px #777777;
+#pic4 {
+  margin: 20px 40px;
+  padding: 10px;
 }
-
-
-
 
 .column {
-    float: left;
-    width: 50%;
+  float: left;
+  width: 400px;
+  padding: 5px;
+  text-align: center;
+  padding: none;
+}
 
-  }
-  
-  /* Clear floats after image containers */
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
